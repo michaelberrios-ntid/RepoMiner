@@ -31,23 +31,19 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
 
     # 4) Normalize each commit into a record dict
     commits_dict = []
-    limit = max_commits or commits.totalCount
+    limit = max_commits or len(commits)
 
-    if commits.totalCount > 0:
-        for commit in commits:
-            if len(commits_dict) >= limit:
-                break
-
-            normalized = {
-                "sha": commit.sha,
-                "author": commit.commit.author.name,
-                "email": commit.commit.author.email,
-                "date": commit.commit.author.date.isoformat(),
-                "message": commit.commit.message.split("\n")[0],
-            }
-
-            commits_dict.append(normalized)
-
+    for i, commit in enumerate(commits):
+        if max_commits and i >= limit:
+            break
+        normalized = {
+            "sha": commit.sha,
+            "author": commit.commit.author.name,
+            "email": commit.commit.author.email,
+            "date": commit.commit.author.date.isoformat(),
+            "message": commit.commit.message.split("\n")[0],
+        }
+        commits_dict.append(normalized)
     
     # 5) Build DataFrame from records
     dataFrame = pd.DataFrame(commits_dict)
