@@ -112,8 +112,8 @@ def test_fetch_commits_limit(monkeypatch):
 
     gh = DummyGithub("fake-token")
     gh._repo = DummyRepo(commits, [])
-    # Patch repo_miner.Github to use our gh
     
+    # Patch repo_miner.Github to use our gh
     import src.repo_miner
     src.repo_miner.Github = lambda token: gh
 
@@ -124,14 +124,14 @@ def test_fetch_commits_limit(monkeypatch):
 
 def test_fetch_commits_empty(monkeypatch):
     # No commits in repo
-    # TODO: Test that fetch_commits returns empty DataFrame when no commits exist.
+    # Test that fetch_commits returns empty DataFrame when no commits exist.
     # Faking 0 commits
     commits = []
 
     gh = DummyGithub("fake-token")
     gh._repo = DummyRepo(commits, [])
-    # Patch repo_miner.Github to use our gh
     
+    # Patch repo_miner.Github to use our gh
     import src.repo_miner
     src.repo_miner.Github = lambda token: gh
 
