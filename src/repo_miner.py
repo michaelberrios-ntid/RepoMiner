@@ -148,6 +148,9 @@ def merge_and_summarize(commits_df: pd.DataFrame, issues_df: pd.DataFrame) -> No
     commits = commits_df.copy()
     issues  = issues_df.copy()
 
+    # Create data/ folder if it doesn't exist
+    os.makedirs("data", exist_ok=True)
+
     # 1) Normalize date/time columns to pandas datetime
     commits['date']      = pd.to_datetime(commits['date'], errors='coerce')
     issues['created_at'] = pd.to_datetime(issues['created_at'], errors='coerce')
@@ -155,6 +158,9 @@ def merge_and_summarize(commits_df: pd.DataFrame, issues_df: pd.DataFrame) -> No
 
     # 2) Top 5 committers
     top_committers = commits['author'].value_counts().head() # Series of top 5 committers by default
+    
+    # Save top committers
+    top_committers.to_csv("data/top_committers.csv", header=['commit_count'])
 
     # 3) Calculate issue close rate
     """
@@ -186,11 +192,23 @@ def merge_and_summarize(commits_df: pd.DataFrame, issues_df: pd.DataFrame) -> No
     avg_duration_per_user = closed_issues.groupby('user')['open_duration_days'].mean()
     issues_close_df['average_open_duration_days'] = avg_duration_per_user
 
-    # issues['open_duration_days'] = (issues['closed_at'] - issues['created_at']).dt.days
-    # issues_close_df['average_open_duration_days'] = issues.groupby('user')['open_duration_days'].mean()
-
     print(issues_close_df)
-    # print(issues)
+    # Output summaries to data/
+    # Save per-user issue summary
+    issues_close_df.to_csv("data/issues_summary.csv")
+
+    # Joins commits and issues on date (e.g., by day or week).
+    commits['date_only'] = commits['date'].dt.date
+    issues['created_date_only'] = issues['created_at'].dt.date
+
+    merged = pd.merge(
+        commits,
+        issues,
+        left_on='date_only',
+        right_on='created_date_only',
+        how='outer',
+        suffixes=('_commit', '_issue')
+    )
 
 def main():
     """

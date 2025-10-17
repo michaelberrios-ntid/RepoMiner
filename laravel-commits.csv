@@ -1,0 +1,101 @@
+sha,author,email,date,message
+909102ce32569ad935cb03f89cd5dc2b81b2b67e,Taylor Otwell,taylor@laravel.com,2025-10-16T15:57:41+00:00,add line break
+8bd99da9fab33e88d6bd3c14afb5b2a3c8fcf30c,StyleCI Bot,bot@styleci.io,2025-10-16T15:14:58+00:00,Apply fixes from StyleCI
+fecda76ff1455b860ba9df19e52b2173b72a0a3c,Neil Carlo Sucuangco,succute@yahoo.com,2025-10-16T15:14:28+00:00,[12.x] Render newlines in query tooltip (#57310)
+ea1131160e275bea0296700d06b90c0e4ab17a0b,Taylor Otwell,taylor@laravel.com,2025-10-15T16:53:08+00:00,wip
+d988ebb035f5e7871e9b0b7b792e8f5f5e4c58ef,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-10-15T16:52:00+00:00,Update Assets
+8b505fa63d2da3ea684a5e332d1f955e50c1f0d1,Jason McCreary,jason@pureconcepts.net,2025-10-15T16:51:34+00:00,Add clickable file reference for thrown exception (#57400)
+80d3d9aaff8f4218eb9eb55ff4d6d65ea35b7af7,StyleCI Bot,bot@styleci.io,2025-10-14T17:37:07+00:00,Apply fixes from StyleCI
+27717ea700794db1a340d77f1c04a33ee20d578b,Md. Arif Dewan,52483190+cseknowledge@users.noreply.github.com,2025-10-14T17:36:41+00:00,Added Neovim editor support in ResolvesDumpSource (#57392)
+1f0025f357d263165ecfec095fb1f8634c4611d1,Jack Bayliss,jack@fusionspim.com,2025-10-14T17:36:25+00:00,"[12.x] Ensure custom validation messages work for AnyOf, Can and Enum (#57356)"
+602e5c71cc39588434f967679bab11fb494ac211,Mior Muhammad Zaki,crynobone@gmail.com,2025-10-14T17:26:02+00:00,[12.x] Fix `DB::update()` with subqueries is not supported for all databases (#57381)
+e926a6534653fcb2ad1a4578b22a1bd68184ef46,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-10-14T14:00:25+00:00,Update CHANGELOG
+f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-10-14T13:58:31+00:00,Update version to v12.34.0
+1b26183910a40b1baae6f5176b4940410c06686b,Wendell Adriel,wendelladriel.ti@gmail.com,2025-10-14T13:45:31+00:00,fix issue that non valid URL not triggering catch hook (#57386)
+009fda60a8e60e323a6464f2e27b9f06a9b30451,Mior Muhammad Zaki,crynobone@gmail.com,2025-10-14T13:43:45+00:00,[12.x] Supports PHPUnit 12.4 (#57388)
+8a093cdfad35647d08e08e3c78143db1bb66c885,Wendell Adriel,wendelladriel.ti@gmail.com,2025-10-14T13:43:27+00:00,Add defer method to HTTP batch (#57387)
+3e8987d68109b057835aa912df02fbb8ced73cf0,Chris Page,sirhc.page@gmail.com,2025-10-13T21:11:33+00:00,Allow closures when calling throw_if (#57349)
+627bb643970b246cfeb1529b30f46c75b2002ea6,Rakibul Hasan,33548111+Rakib01@users.noreply.github.com,2025-10-13T21:09:42+00:00,Add support for Fleet editor in ResolvesDumpSource (#57377)
+c6722f6a516bb3d21518bff814e8e3bea9703b3c,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-10-13T16:32:04+00:00,Update facade docblocks
+0d6cf860055e9d18a05b79c37b3b47d5323f2e8d,Taylor Otwell,taylor@laravel.com,2025-10-13T16:31:35+00:00,Prototype failover queue (#57341)
+ac2d3ce298eac0ca1dc9a806df870c13fcd2a32c,james,188772+jamessa@users.noreply.github.com,2025-10-13T16:30:36+00:00,[12.x] fix multibye cli format in schedule list (#57367)
+add2987c303cb72a570e294fa79bc85b883e3f3b,Omar Faruk,programmer.omar.dev@gmail.com,2025-10-13T16:29:08+00:00,added kiro editor support in `ResolvesDumpSource` (#57363)
+e82f97271c6811865136005bc68087dd9b141e1c,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-10-12T14:13:44+00:00,Expand single-line array into multiline (#57350)
+1afa2808e23a56b0d5c0aa0097027c035b2ce743,Muhammad Sajidul Islam,72538066+Sajid-al-islam@users.noreply.github.com,2025-10-12T14:07:11+00:00,[12.X] add support for windsurf IDE in ResolvesDumpSource (#57359)
+e35973947b1dc8f9e56bdf444cf87790ccc59a66,Chuoke,chuokechungyoung@gmail.com,2025-10-10T17:28:08+00:00,[12.x] feat: Support custom response without modifying the exception handler (#57342)
+d2f21cd5b8c4a0e44665b49b5d3a5efa56ac7794,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-10-10T13:33:40+00:00,[12.x] Use FQCN in docblocks (#57335)
+46fe93afc010cdc623f3237d140e563276059d6f,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-10-10T13:31:43+00:00,Add missing @throws annotation to Arr (#57336)
+7baabc9987d1d23677bec6e0c8dc9499260fd13b,Luke Kuzmish,42181698+cosmastech@users.noreply.github.com,2025-10-10T13:31:18+00:00,do not assume `toString()` method (#57340)
+95fc3d08a70e363c1cb3a6a9a5afe3566d777499,Erik Perri,46399654+erik-perri@users.noreply.github.com,2025-10-09T21:42:14+00:00,[12.x] Fix email rule helper message (#57323)
+f2396a70e9658ac81f91db78240c0e05de2876bd,Ryuta Hamasaki,avosalmon@gmail.com,2025-10-09T14:51:18+00:00,[12.x] Fix text truncation on syntax-highlighted queries (#57315)
+18b13c738ca6ab22a8d751a508ea9ebab6ddab30,Ryuta Hamasaki,avosalmon@gmail.com,2025-10-09T14:40:15+00:00,[12.x] Fix text truncation on syntax-highlighted queries (#57315)
+1c1fdebf97aa4e4ee426f0e7a6ffb65366aab410,Jimmi Hansen,37844753+FoksVHox@users.noreply.github.com,2025-10-09T13:47:05+00:00,Update text color in minimal error view to ensure better accessibility (#57318)
+4a97148fe963b2a0389dd101b354cb0989186acb,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-10-09T13:33:33+00:00,Formatting (#57321)
+975d60a5a38d75ec00f219058ad8495877058b82,Stephen Rees-Carter,stephen@rees-carter.net,2025-10-08T21:34:35+00:00,Regenerate session during Auth::login() (#57204)
+5718d447212d11da3378f39f619dc2ce69293bfa,Ion Bazan,ion.bazan@gmail.com,2025-10-08T20:51:51+00:00,[12.x] Fix remaining PHP 8.5 null index array deprecations (#57308)
+d7f1bd9d1cddbabcd6af6c24e74def3e52f3d893,Amir Hossein Shokri,shokridev@gmail.com,2025-10-08T20:45:17+00:00,feat: add enum support to Schedule::useCache() (#57311)
+df826dfbb63e8894ea9915b2ba9ce06e407547b0,Sajjad Hossain Shohag,63788037+sajjadhossainshohag@users.noreply.github.com,2025-10-08T13:04:38+00:00,Adds support for `Trae IDE` in the local exception page (#57300)
+cefbf21a780ed8bce01aa98f6a6a34cc7add0015,Zoltán Tamás Szabó,72586295+MadBox-99@users.noreply.github.com,2025-10-08T13:01:04+00:00,Fix return type order in view function signature (#57304)
+c971f6ebe751955f729c72203297a9008fe0cea9,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-10-08T12:58:45+00:00,Remove leftover workaround (#57306)
+da58855c8069dbdd8f8f7c9e3c332360f9a231f8,Miguilim,35383529+miguilimzero@users.noreply.github.com,2025-10-07T19:59:41+00:00,Update ResolvesDumpSource.php (#57298)
+7eedc62dcdf1cd085c1fca7d8dd3e8f7eb7cbc02,StyleCI Bot,bot@styleci.io,2025-10-07T19:59:36+00:00,Apply fixes from StyleCI
+324903fd790b835094f03cce705c86f4d80524d9,ndifon,malico.yong@gmail.com,2025-10-07T19:59:08+00:00,Add missing waitUntil method to FakeInvokedProcess (#57030)
+57d3174f873884611942116f5a739cbea6a2b03b,Luke Kuzmish,42181698+cosmastech@users.noreply.github.com,2025-10-07T17:48:36+00:00,str factory docblocks (#57297)
+1c669e676f98efef6946332b7fe04699978255ce,Philipp Daun,post@philippdaun.net,2025-10-07T17:25:46+00:00,Generate Vite asset path in dedicated method (#57292)
+a89a872d473bbbe93500c063b469e4445e818aa6,Tobias Petry,github@tpetry.me,2025-10-07T15:02:30+00:00,[12.x] PostgreSQL virtual columns (#57290)
+541878930cf5c9b7b6fbd8c569fbb6da03f8b520,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-10-07T14:32:38+00:00,Update CHANGELOG
+124efc5f09d4668a4dc13f94a1018c524a58bcb1,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-10-07T14:30:39+00:00,Update version to v12.33.0
+920724c150c8d63fa5a96a5e3f0afe10f4e111bd,Chris Jones,leeked@gmail.com,2025-10-06T22:01:13+00:00,[12.x] HTTP Client: add mergeUrlParameters() to combine URL parameters without overwriting (#57282)
+887a11c800c41d5f7b6d30ca0e24c234309e895f,StyleCI Bot,bot@styleci.io,2025-10-06T14:52:37+00:00,Apply fixes from StyleCI
+add4f4a71aa94303a7c026759e1ce32a52b71834,Mathias Grimm,mathiasgrimm@gmail.com,2025-10-06T14:52:22+00:00,[12.x] Improve BroadcastManager error messages when trying to get a Broadcaster (#57275)
+92ea3837aa5f6b9e78191af469de01a229d76fc1,Michael Contento,280532+michaelcontento@users.noreply.github.com,2025-10-06T14:47:22+00:00,[12.x] Add Stringable::doesntContain() to match API symmetry (#57279)
+1f0bcbf0941923d7f884459a9f5fcfbd16bb8ac8,Hossein Hosni,47793698+hosni@users.noreply.github.com,2025-10-04T23:32:04+00:00,[12.x] Fix using pushIf blade directive with complex conditions (#57264) (#57274)
+f5c017e7134ae627137ac2052491bd733a9beb73,Luke Kuzmish,42181698+cosmastech@users.noreply.github.com,2025-10-04T17:54:19+00:00,[12x.] reduce repeated inserts in tests (#57273)
+a5bdd4293dc0ecaf47ccd1ef401c67ffb5a651a4,JurianArie,28654085+JurianArie@users.noreply.github.com,2025-10-03T21:17:17+00:00,Add PostgreSQL 18 workflow to CI configuration (#57232)
+83b737b8fe6bc4842ed7465c0bc99d88e43e2c2a,Michael Contento,280532+michaelcontento@users.noreply.github.com,2025-10-03T21:09:42+00:00,[12.x] Ensure cookie lifetime matches session lifetime in StartSession middleware (#57266)
+652cc51dab64ecbd58d7e8083b836a2220f7d184,Mathias Grimm,mathiasgrimm@gmail.com,2025-10-03T09:24:36+00:00,[12.x] Improve `php artisan config:cache` and `php artisan optimize` error messages for non-serializable values (#57249)
+6b5f87d41e6ac6b481e4f0690910bcf1d4a9a3f6,Ali Khosrojerdi,ali7.khosrojerdi@gmail.com,2025-10-03T09:12:59+00:00,refactor: add |null in docblock (#57253)
+e779bc597f90693ed77bc2222e16669954cb2a13,Balboa Codes,20909423+balboacodes@users.noreply.github.com,2025-10-03T09:12:18+00:00,wip (#57254)
+e821bfd3fc4013c11b3558fe6b33c8e6e26c7097,Jack Bayliss,jack@fusionspim.com,2025-10-02T07:41:24+00:00,[12.x] Ensure calling job within a group works as expected (#57224)
+abeaa6fb5f2f5668a4ec274cb103ae0f45ed64b8,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-10-02T07:35:16+00:00,Fix rounded in exception frame component (#57239)
+5cbae9b815af223b7737fa725aab2c79f5894047,Ali Khosrojerdi,ali7.khosrojerdi@gmail.com,2025-10-02T07:31:28+00:00,refactor: change switch to match (#57237)
+f392e00207ae0746b438ae37dfae62b759783188,Amir Hossein Shokri,shokridev@gmail.com,2025-10-02T07:31:11+00:00,[12.x] Refactor switch to match (#57236)
+4eff5b2a990b18f369946578030593facd7151ea,Andrew Nagy,564256+tm1000@users.noreply.github.com,2025-10-02T07:28:44+00:00,[12.x] Fix invalid docblock (#57240)
+e5e00b6df4d817d424aad46187289b58e588b711,Choraimy Kroonstuiver,3661474+axlon@users.noreply.github.com,2025-10-01T10:33:01+00:00,Narrow type after `Str::is*(...)` check (#57230)
+620d6abd41cb59a3a2f85c8f8e1aac406f4097ff,Luke Towers,github@luketowers.ca,2025-09-30T19:12:33+00:00,Fix compiling queries that use orderByRaw with expressions (#57228)
+214005fe519472daad2dcebd4e1754da13134733,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T17:41:03+00:00,Update CHANGELOG
+77b2740391cd2a825ba59d6fada45e9b8b9bcc5a,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T17:39:22+00:00,Update version to v12.32.5
+f970b62adec1b62fbcea44c79d1efc781ba86474,Taylor Otwell,taylor@laravel.com,2025-09-30T17:35:35+00:00,revert change
+53a87a90584db31b6a6772af9f1336970fd43cad,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T17:23:59+00:00,Update CHANGELOG
+e6938116a43f48f7b9a336691926b5cebd1b6954,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T17:22:19+00:00,Update version to v12.32.4
+0d1344c138d0e7171259b2a8b748a75306805e22,Luke Kuzmish,42181698+cosmastech@users.noreply.github.com,2025-09-30T17:21:31+00:00,use container (#57226)
+8df892ff598b2955cd19a04725defa54bd48d64d,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T15:40:18+00:00,Update CHANGELOG
+101f7d1ef000f68ccef15a2529d3e99b0c49a14a,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T15:38:34+00:00,Update version to v12.32.3
+181cc1f5962f29e47bcae25157a9d9ae50c3b89d,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-09-30T15:37:41+00:00,[12.x] Clean up redundant type hints in docblocks (#57219)
+4e74830bf3c396f56c439f54cdac3f39f4e2694c,Luke Kuzmish,42181698+cosmastech@users.noreply.github.com,2025-09-30T15:37:17+00:00,[12.x] Define LARAVEL_START if not already defined (#57222)
+5dcd2936a12fbbb6d50c04427b4f106c67718e13,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T14:46:46+00:00,Update CHANGELOG
+7cdf642d473365fc257a9bec5d8b49d976bc9b0f,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T14:45:00+00:00,Update version to v12.32.2
+74a1aa0825f0b961a0929fa883a381a8ebccb8f8,Taylor Otwell,taylor@laravel.com,2025-09-30T14:33:11+00:00,remove forwarded host
+7cf38e9c3aa28d96fd192430dc502823106ce052,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T12:24:46+00:00,Update CHANGELOG
+d41e4ba47706ec85bda85fe9362515592871cd21,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T12:22:56+00:00,Update version to v12.32.1
+201ee892b2b9134adba45252d19d146410d61810,Sergey Danilchenko,daniser@mail.ru,2025-09-30T12:21:30+00:00,[12.x] Fix AWS S3 adapter's constructor not allowing decorated adapter instances (#57217)
+ec5407722e9cb9b40abc833d04c90b7c9c0897de,avosalmon,7438395+avosalmon@users.noreply.github.com,2025-09-30T11:51:34+00:00,Update Assets
+26676d8875856c8bdfb0e948ef94429d486516c3,Matt Jones,matt@eighteen73.co.uk,2025-09-30T11:19:20+00:00,[13.x] Fix scopedBy attribute not following inheritance chain (#57213)
+f4fe15fc7dc398bf3505995297b3482963931905,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T10:32:20+00:00,Update CHANGELOG
+c30b044aae29ad87419ebedf377338bf4668a4c9,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-30T10:30:26+00:00,Update version to v12.32.0
+c3ac5df263c712701223dc9371a58355fc5c96d6,Patrick Carlo-Hickman,patrickcarlohickman@users.noreply.github.com,2025-09-30T10:20:25+00:00,[12.x] Extend SQS FIFO and fair queue support (#57187)
+8ef2934e48b9cde0f5bbb4b684d9cc7e3e97943a,Francisco Madeira,xico2k@gmail.com,2025-09-30T09:56:40+00:00,[12.x] Fixes error renderer report page (#57208)
+71381e5478323c0c146546eb5e6685769a409df9,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-09-30T09:52:37+00:00,Remove unnecessary parentheses (#57210)
+9ab59607e42f6c4554f1db4a97700220f50daba3,Ahmed Alaa,92916738+AhmedAlaa4611@users.noreply.github.com,2025-09-30T09:50:37+00:00,Remove unnecessary parentheses (#57212)
+5e1b8fee6f0b742dbdb085aa22d54b201170e202,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-29T18:49:19+00:00,Update facade docblocks
+8d60c3f9dc7d22ae4efccd029cbe7575d56968d9,Matthieu Lempereur,matt.lempereur@gmail.com,2025-09-29T18:48:47+00:00,[12.x] [Mail] Update `queue` PHPDoc according to function behavior (#57207)
+6e738d841d03cc36ef619090b016f60726a93a8d,taylorotwell,463230+taylorotwell@users.noreply.github.com,2025-09-29T10:50:17+00:00,Update facade docblocks
+b1c0b3063772377d6251013074f48e67564007fa,StyleCI Bot,bot@styleci.io,2025-09-29T10:49:50+00:00,Apply fixes from StyleCI
+7a19bea73cf5b14b11767f858b4c933d5a619ad6,Wendell Adriel,wendelladriel.ti@gmail.com,2025-09-29T10:49:31+00:00,[12.x] Add Http::batch (#56946)
+10bd359d2cf0341463d08bae39eea02052c532db,StyleCI Bot,bot@styleci.io,2025-09-29T10:07:05+00:00,Apply fixes from StyleCI
+51ff2a383c4686de048cce1960485efb82a3bc5a,Luke Kuzmish,42181698+cosmastech@users.noreply.github.com,2025-09-29T10:06:48+00:00,[12.x] Dispatch framework events on composer `pre-package-uninstall` event (#57144)
+0c88bb27311cc90fe78a6efb3a61147d87aac54c,Bruno,39590058+Katalam@users.noreply.github.com,2025-09-29T09:49:12+00:00,[12.x] Json schema nullable (#57181)
+4b9c9d3e6356b3953d9926fb1e792940bac977e3,Taylor Otwell,taylor@laravel.com,2025-09-29T09:37:41+00:00,fix clustered flush
+06e6364eabe162e063f484941a0cc9e2a7bde5b3,StyleCI Bot,bot@styleci.io,2025-09-29T09:28:21+00:00,Apply fixes from StyleCI
+e32b3a632b490279ab8b95b5207e035032e01b80,Tim MacDonald,hello@timacdonald.me,2025-09-29T09:27:51+00:00,"[12.x] Introduce ""after"" rate limiting (#57125)"
+18cd6abceb70be1895629be7170bcdbbcf17dc49,Seth Phat,phattranminh96@gmail.com,2025-09-28T12:56:00+00:00,[12.x] Adds support enums for `ThrottleRequests::using` method (#57190)

@@ -23,6 +23,11 @@ python -m src.repo_miner fetch-commits --repo octocat/Hello-World --max 100 --ou
 python -m src.repo_miner fetch-issues --repo octocat/hello-world --state all --max 50 --out octocat-hello-world-issues.csv
 ```
 
+## Run repo_miner to summarize commits and issues data from CSV files
+```bash
+python -m src.repo_miner summarize --commits commits.csv --issues issues.csv
+```
+
 ## Running Tests
 ```bash
 pytest
