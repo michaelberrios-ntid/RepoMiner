@@ -159,6 +159,10 @@ def merge_and_summarize(commits_df: pd.DataFrame, issues_df: pd.DataFrame) -> No
     # 2) Top 5 committers
     top_committers = commits['author'].value_counts().head() # Series of top 5 committers by default
     
+    print("Top 5 committers:")
+    for author, count in top_committers.items():
+        print(f"{author}: {count} commits")
+
     # Save top committers
     top_committers.to_csv("data/top_committers.csv", header=['commit_count'])
 
@@ -173,6 +177,11 @@ def merge_and_summarize(commits_df: pd.DataFrame, issues_df: pd.DataFrame) -> No
         ('closed_issues', lambda s: s.notnull().sum()),
         ('total_issues', lambda s: s.size)
     ])
+
+    total_issues = len(issues)
+    closed_count = issues['closed_at'].notnull().sum()
+    close_rate = round(closed_count / total_issues, 2) if total_issues > 0 else 0.0
+    print(f"Issue close rate: {close_rate}")
 
     """
     Add a 'close_rate' column to the DataFrame, calculated as the ratio of closed issues
@@ -192,6 +201,12 @@ def merge_and_summarize(commits_df: pd.DataFrame, issues_df: pd.DataFrame) -> No
     avg_duration_per_user = closed_issues.groupby('user')['open_duration_days'].mean()
     issues_close_df['average_open_duration_days'] = avg_duration_per_user
 
+    avg_duration = closed_issues['open_duration_days'].mean()
+    avg_duration = 0.0 if pd.isna(avg_duration) else round(avg_duration, 2)
+    print(f"Avg. issue open duration: {avg_duration} days")
+
+    print()
+    print("Per-user issue summary: ")
     print(issues_close_df)
     # Output summaries to data/
     # Save per-user issue summary
