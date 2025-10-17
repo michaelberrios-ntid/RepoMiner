@@ -1,0 +1,19 @@
+id,number,title,user,state,created_at,closed_at,open_duration_days,comments
+3523516466,57420,Migration dont create fulltext index,swaty007,open,2025-10-16T21:07:40+00:00,,,0
+3522063157,57415,"Why does Laravel install TailwindCSS even with ""None"" starter kit?",MasihTak,open,2025-10-16T14:07:21+00:00,,,0
+3520941920,57409,seems to occur with 12.34: 419 page expired when logging in a different auth guard,ghbob,open,2025-10-16T08:54:25+00:00,,,3
+3520692374,57408,model:prune command exceeds lock table size,sts-ryan-holton,open,2025-10-16T07:36:37+00:00,,,0
+3519735913,57402,The Dispatcher class does not use the container to resolve the PendingBatch and PendingChain instances,sebestenyb,open,2025-10-15T22:12:28+00:00,,,1
+3517550726,57398,Collection::pluck() returns null for keys containing literal dots instead of treating them as literal keys,itsbhavinrey,closed,2025-10-15T11:14:02+00:00,2025-10-15T11:44:33+00:00,0.0,2
+3513786030,57389,Unable to disable automatic `SendEmailVerificationNotification` listener registration in Laravel 11+ using new application bootstrapping API,clarkewing,closed,2025-10-14T12:48:24+00:00,2025-10-14T13:26:44+00:00,0.0,1
+3512797727,57384,OriginalIsEquivalent failed for array types,hussonkevin,closed,2025-10-14T07:57:34+00:00,2025-10-16T01:02:56+00:00,1.0,1
+3511199789,57378,"PluralStudly of ""Education"" not working correctly",eduardo-intervyou,closed,2025-10-13T19:18:26+00:00,2025-10-14T00:57:24+00:00,0.0,2
+3510666954,57376,Database connection [] not configured.,JshGrn,closed,2025-10-13T16:19:44+00:00,2025-10-14T01:00:45+00:00,0.0,4
+3510195740,57374,Update with subqueries is not supported for all databases,enduity,closed,2025-10-13T13:59:24+00:00,2025-10-14T17:26:04+00:00,1.0,3
+3508237842,57366,Exception render does not expose previous exceptions,DarkGhostHunter,open,2025-10-13T02:19:49+00:00,,,2
+3506823161,57357,Error serialised with php8. 4 Hooks,Fulliton,open,2025-10-12T08:28:00+00:00,,,6
+3504392399,57346,"Discussion: Missing PHP return type declarations in Session, Config, and Console classes",sumaiazaman,closed,2025-10-10T20:15:01+00:00,2025-10-13T01:13:23+00:00,2.0,3
+3502002606,57331,Attempting to send a verifyEmail using the guidance from the,pgogy,closed,2025-10-10T09:04:38+00:00,2025-10-13T01:14:01+00:00,2.0,4
+3501595469,57328,Can't use `Str::createUuidsUsing()` with `Notification::fake()`,Livijn,closed,2025-10-10T06:43:53+00:00,2025-10-10T13:31:19+00:00,0.0,3
+3498253191,57319,Since Laravel 11 introduced the new minimal application structure,wattskenneth043,closed,2025-10-09T08:58:15+00:00,2025-10-10T01:39:48+00:00,0.0,2
+3496796064,57312,Incorrect route matched when part of URL overlaps,mnastalski,open,2025-10-08T20:27:58+00:00,,,4
